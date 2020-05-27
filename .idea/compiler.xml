@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api" />
-        <module name="student-provider-8848" />
         <module name="student-consumer-80" />
+        <module name="api" />
+        <module name="config-server" />
+        <module name="eureka-2333" />
+        <module name="zuul-9999" />
+        <module name="student-producer-8848" />
       </profile>
     </annotationProcessing>
   </component>

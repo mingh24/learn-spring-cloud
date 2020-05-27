@@ -1,22 +1,22 @@
-package com.yi.consumer;
+package com.yi.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * Project Name: learn-spring-cloud
- * File Name: StudentConsumer_80
- * Package Name: com.yi.consumer
+ * File Name: EurekaServer_2333
+ * Package Name: com.yi.eureka
  *
  * @author yipple
  * @date 2020/5/27
  * @since 0.0.1
  */
 @SpringBootApplication
-@EnableEurekaClient
-public class StudentConsumer_80 {
+@EnableEurekaServer
+public class EurekaServer_2333 {
     public static void main(String[] args) {
-        SpringApplication.run(StudentConsumer_80.class, args);
+        SpringApplication.run(EurekaServer_2333.class, args);
     }
 }

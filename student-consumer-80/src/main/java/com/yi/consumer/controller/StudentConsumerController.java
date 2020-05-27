@@ -42,4 +42,10 @@ public class StudentConsumerController {
         return restTemplate.getForObject(REST_URL_PREFIX + "/student/list", List.class);
     }
 
+    @GetMapping("/api/v1/demo/get")
+    public String test() {
+        String fromProducer = restTemplate.getForObject(REST_URL_PREFIX + "/api/v1/producer/demo/get", String.class);
+        return "This is consumer.\n" + fromProducer;
+    }
+
 }

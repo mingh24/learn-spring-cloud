@@ -1,22 +1,22 @@
-package com.yi.consumer;
+package com.yi.zuul;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 /**
  * Project Name: learn-spring-cloud
- * File Name: StudentConsumer_80
- * Package Name: com.yi.consumer
+ * File Name: Zuul_9999
+ * Package Name: com.yi.zuul
  *
  * @author yipple
  * @date 2020/5/27
  * @since 0.0.1
  */
 @SpringBootApplication
-@EnableEurekaClient
-public class StudentConsumer_80 {
+@EnableZuulProxy
+public class Zuul_9999 {
     public static void main(String[] args) {
-        SpringApplication.run(StudentConsumer_80.class, args);
+        SpringApplication.run(Zuul_9999.class, args);
     }
 }

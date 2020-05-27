@@ -11,8 +11,11 @@
 
     <modules>
         <module>api</module>
-        <module>student-provider-8848</module>
+        <module>student-producer-8848</module>
         <module>student-consumer-80</module>
+        <module>eureka-2333</module>
+        <module>config-server</module>
+        <module>zuul-9999</module>
     </modules>
 
     <properties>
@@ -36,6 +39,11 @@
                 <version>2.3.0.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-zuul</artifactId>
+                <version>1.4.7.RELEASE</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>

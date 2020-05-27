@@ -1,4 +1,4 @@
-package com.yi.consumer;
+package com.yi.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * Project Name: learn-spring-cloud
- * File Name: StudentConsumer_80
- * Package Name: com.yi.consumer
+ * File Name: StudentProducer_8848
+ * Package Name: com.yi.producer
  *
  * @author yipple
  * @date 2020/5/27
@@ -15,8 +15,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  */
 @SpringBootApplication
 @EnableEurekaClient
-public class StudentConsumer_80 {
+public class StudentProducer_8848 {
     public static void main(String[] args) {
-        SpringApplication.run(StudentConsumer_80.class, args);
+        SpringApplication.run(StudentProducer_8848.class, args);
     }
 }

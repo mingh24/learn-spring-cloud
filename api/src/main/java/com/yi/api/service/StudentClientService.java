@@ -3,6 +3,7 @@ package com.yi.api.service;
 import com.yi.api.entity.Student;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
@@ -23,7 +24,7 @@ public interface StudentClientService {
     public boolean addStudent(Student student);
 
     @GetMapping("/student/query/{id}")
-    public Student queryStudentById(Integer id);
+    public Student queryStudentById(@PathVariable("id") Integer id);
 
     @GetMapping("/student/list")
     public List<Student> queryAllStudents();

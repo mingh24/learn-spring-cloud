@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/student-producer-8849/pom.xml" />
         <option value="$PROJECT_DIR$/student-producer-8850/pom.xml" />
         <option value="$PROJECT_DIR$/student-consumer-feign-80/pom.xml" />
+        <option value="$PROJECT_DIR$/student-producer-hystrix-8848/pom.xml" />
+        <option value="$PROJECT_DIR$/student-producer-hystrix-8849/pom.xml" />
+        <option value="$PROJECT_DIR$/student-producer-hystrix-8850/pom.xml" />
       </list>
     </option>
   </component>

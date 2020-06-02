@@ -7,17 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="student-consumer-80" />
-        <module name="api" />
-        <module name="config-server" />
         <module name="eureka-2334" />
         <module name="eureka-2333" />
-        <module name="eureka-2335" />
-        <module name="student-producer-8850" />
+        <module name="config-server" />
         <module name="zuul-9999" />
-        <module name="student-consumer-feign-80" />
         <module name="student-producer-8849" />
         <module name="student-producer-8848" />
+        <module name="student-producer-hystrix-8849" />
+        <module name="student-producer-hystrix-8848" />
+        <module name="student-producer-8850" />
+        <module name="student-producer-hystrix-8850" />
+        <module name="student-consumer-feign-80" />
+        <module name="api" />
+        <module name="student-consumer-80" />
+        <module name="eureka-2335" />
       </profile>
     </annotationProcessing>
   </component>

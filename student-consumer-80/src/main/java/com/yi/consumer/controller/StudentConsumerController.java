@@ -19,7 +19,7 @@ import java.util.List;
 @RequestMapping(produces = "application/json; charset=utf-8")
 public class StudentConsumerController {
 
-    private static final String REST_URL_PREFIX = "http://localhost:8848";
+    private static final String REST_URL_PREFIX = "http://student-producer";
 
     private final RestTemplate restTemplate;
 

@@ -26,4 +26,6 @@ public class Student implements Serializable {
 
     private String sex;
 
+    private String dataSource;
+
 }

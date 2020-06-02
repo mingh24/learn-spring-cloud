@@ -7,16 +7,16 @@ mybatis:
 
 spring:
   application:
-    name: student-producer-8848
+    name: student-producer
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/learn_spring_cloud
+    url: jdbc:mysql://localhost:3306/learn_spring_cloud_1
     username: yisql
     password: Yiang2MySQL
 
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:2333/eureka
+      defaultZone: http://eureka2333.com:2333/eureka, http://eureka2334.com:2334/eureka, http://eureka2335.com:2335/eureka
   instance:
     instance-id: student-producer-8848

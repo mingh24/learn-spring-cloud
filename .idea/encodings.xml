@@ -7,10 +7,18 @@
     <file url="file://$PROJECT_DIR$/config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-2333/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-2333/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-2334/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-2334/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-2335/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-2335/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/student-consumer-80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/student-consumer-80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/student-producer-8848/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/student-producer-8848/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-producer-8849/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-producer-8849/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-producer-8850/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/student-producer-8850/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-9999/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-9999/src/main/resources" charset="UTF-8" />
   </component>

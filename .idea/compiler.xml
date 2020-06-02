@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,8 +10,12 @@
         <module name="student-consumer-80" />
         <module name="api" />
         <module name="config-server" />
+        <module name="eureka-2334" />
         <module name="eureka-2333" />
+        <module name="eureka-2335" />
+        <module name="student-producer-8850" />
         <module name="zuul-9999" />
+        <module name="student-producer-8849" />
         <module name="student-producer-8848" />
       </profile>
     </annotationProcessing>

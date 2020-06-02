@@ -1,0 +1,11 @@
+server:
+  port: 2335
+
+eureka:
+  instance:
+    hostname: eureka2335.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka2333.com:2333/eureka/, http://eureka2334.com:2334/eureka/

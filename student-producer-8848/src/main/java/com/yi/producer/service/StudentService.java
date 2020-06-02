@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * Project Name: learn-spring-cloud
- * File Name: StudentService
+ * File Name: StudentClientService
  * Package Name: com.yi.producer.service
  *
  * @author yipple

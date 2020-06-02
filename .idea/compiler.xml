@@ -15,6 +15,7 @@
         <module name="eureka-2335" />
         <module name="student-producer-8850" />
         <module name="zuul-9999" />
+        <module name="student-consumer-feign-80" />
         <module name="student-producer-8849" />
         <module name="student-producer-8848" />
       </profile>

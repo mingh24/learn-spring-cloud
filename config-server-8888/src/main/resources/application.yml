@@ -10,3 +10,14 @@ spring:
         git:
           uri: https://github.com/Yi1275432232/learn-spring-cloud-config.git
           search-paths: eureka-config*, student-producer-config*, student-consumer-config*, zuul-config*
+  rabbitmq:
+    host: 123.57.22.79
+    port: 5672
+    username: yibbit
+    password: Yiang2Rabbit
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'

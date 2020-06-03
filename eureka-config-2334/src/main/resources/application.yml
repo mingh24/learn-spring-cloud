@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: eureka-config-2334

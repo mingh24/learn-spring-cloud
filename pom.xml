@@ -11,14 +11,23 @@
 
     <modules>
         <module>api</module>
-        <module>student-producer-8848</module>
-        <module>student-consumer-80</module>
+        <module>config-client</module>
+        <module>config-server-8888</module>
         <module>eureka-2333</module>
-        <module>config-server</module>
-        <module>zuul-9999</module>
         <module>eureka-2334</module>
         <module>eureka-2335</module>
-        <module>student-consumer-feign</module>
+        <module>eureka-config-2333</module>
+        <module>student-consumer-80</module>
+        <module>student-consumer-config-80</module>
+        <module>student-consumer-feign-80</module>
+        <module>student-producer-8848</module>
+        <module>student-producer-8849</module>
+        <module>student-producer-8850</module>
+        <module>student-producer-config-8848</module>
+        <module>student-producer-hystrix-8848</module>
+        <module>student-producer-hystrix-8849</module>
+        <module>student-producer-hystrix-8850</module>
+        <module>zuul-9999</module>
     </modules>
 
     <properties>

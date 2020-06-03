@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: spring-cloud-zuul
+    name: zuul-9999
 
 eureka:
   client:

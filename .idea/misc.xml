@@ -11,6 +11,16 @@
         <option value="$PROJECT_DIR$/student-producer-hystrix-8848/pom.xml" />
         <option value="$PROJECT_DIR$/student-producer-hystrix-8849/pom.xml" />
         <option value="$PROJECT_DIR$/student-producer-hystrix-8850/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-8888/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/student-producer-config-8848/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-config-2333/pom.xml" />
+        <option value="$PROJECT_DIR$/student-consumer-config-80/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-config-2334/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-config-2335/pom.xml" />
+        <option value="$PROJECT_DIR$/student-producer-config-8849/pom.xml" />
+        <option value="$PROJECT_DIR$/student-producer-config-8850/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-config-9999/pom.xml" />
       </list>
     </option>
   </component>

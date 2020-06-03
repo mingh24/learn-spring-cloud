@@ -9,19 +9,31 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-2334" />
         <module name="eureka-2333" />
-        <module name="config-server" />
         <module name="zuul-9999" />
+        <module name="student-producer-config-8849" />
+        <module name="student-producer-config-8848" />
         <module name="student-producer-8849" />
         <module name="student-producer-8848" />
         <module name="student-producer-hystrix-8849" />
         <module name="student-producer-hystrix-8848" />
+        <module name="student-producer-config-8850" />
+        <module name="zuul-config-9999" />
+        <module name="config-client" />
+        <module name="student-consumer-config-80" />
         <module name="student-producer-8850" />
         <module name="student-producer-hystrix-8850" />
+        <module name="eureka-config-2334" />
+        <module name="eureka-config-2335" />
         <module name="student-consumer-feign-80" />
+        <module name="config-server-8888" />
+        <module name="eureka-config-2333" />
         <module name="api" />
         <module name="student-consumer-80" />
         <module name="eureka-2335" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="student-producer-config-8850" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

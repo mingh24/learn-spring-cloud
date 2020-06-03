@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: config-student-producer-8849
+      label: master
+      uri: http://localhost:8888
+      profile: dev
